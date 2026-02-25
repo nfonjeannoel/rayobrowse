@@ -1,0 +1,71 @@
+Rayobrowse Proprietary License
+
+Copyright (c) 2024-2026 Rayobyte, LLC. All rights reserved.
+
+───────────────────────────────────────────────────────────────────────────────
+GRANT OF LICENSE
+───────────────────────────────────────────────────────────────────────────────
+
+Subject to the restrictions below, Rayobyte grants you a non-exclusive,
+non-transferable, limited license to download, install, and use Rayobrowse
+("the Software") solely for your own internal business or personal purposes.
+
+───────────────────────────────────────────────────────────────────────────────
+FREE TIER
+───────────────────────────────────────────────────────────────────────────────
+
+The free tier permits one (1) concurrent browser session per machine with no
+proxy restrictions. Unlimited concurrency is available under separate paid
+plans; see https://rayobyte.com for details.
+
+───────────────────────────────────────────────────────────────────────────────
+RESTRICTIONS
+───────────────────────────────────────────────────────────────────────────────
+
+1. Prohibited Companies. Organizations listed at
+   https://cdn.sb.rayobyte.com/list-of-prohibited-companies.txt
+   (the "Prohibited List") are not permitted to use, install, copy, or
+   distribute the Software in any form. If your organization is on the
+   Prohibited List and has a legitimate use case, contact
+   sales@rayobyte.com.
+
+2. No Redistribution. You may not sell, sublicense, distribute, or otherwise
+   make the Software available to third parties, in whole or in part, except
+   as expressly permitted by a separate written agreement with Rayobyte.
+
+3. No Reverse Engineering. You may not decompile, disassemble, reverse
+   engineer, or otherwise attempt to derive the source code of the Software,
+   except to the extent required by applicable law.
+
+4. No Removal of Notices. You may not remove or alter any proprietary
+   notices, labels, or marks on the Software.
+
+5. Compliance with Laws. You must use the Software in compliance with all
+   applicable laws and regulations, including those governing web scraping
+   and automated access to third-party websites.
+
+───────────────────────────────────────────────────────────────────────────────
+DISCLAIMER OF WARRANTIES
+───────────────────────────────────────────────────────────────────────────────
+
+THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. TO THE MAXIMUM EXTENT
+PERMITTED BY APPLICABLE LAW, RAYOBYTE SHALL NOT BE LIABLE FOR ANY DIRECT,
+INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING
+OUT OF OR RELATED TO YOUR USE OF OR INABILITY TO USE THE SOFTWARE.
+
+───────────────────────────────────────────────────────────────────────────────
+THIRD-PARTY COMPONENTS
+───────────────────────────────────────────────────────────────────────────────
+
+This software includes third-party open-source components. See
+THIRD_PARTY_NOTICES.md for details and applicable license terms.
+
+───────────────────────────────────────────────────────────────────────────────
+CONTACT
+───────────────────────────────────────────────────────────────────────────────
+
+Rayobyte, LLC
+https://rayobyte.com
+support@rayobyte.com

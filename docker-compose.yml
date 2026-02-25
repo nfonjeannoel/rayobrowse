@@ -1,0 +1,15 @@
+services:
+  rayobrowse:
+    image: rayobyte/rayobrowse:latest
+    restart: unless-stopped
+    shm_size: '2g'
+    ports:
+      - "${RAYOBROWSE_PORT:-9222}:9222"
+      - "6080:6080"
+    volumes:
+      - rayobrowse-data:/data
+    env_file:
+      - .env
+
+volumes:
+  rayobrowse-data:
