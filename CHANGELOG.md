@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.32] - 2026-03-10
+
+### Improved
+- **Page visibility and focus** — all browser windows now report as visible (`document.visibilityState === "visible"`) and focused, matching the state of a real foreground tab. When running multiple browsers on a single server, anti-bot systems can detect background or hidden pages; this update ensures every session appears as an active, human-attended tab.
+- **MAJOR: WebGL rendering pipeline** — GPU fingerprints now match real hardware profiles instead of exposing SwiftShader (software renderer) metadata. Spoofed WebGL values are also returned with realistic query latency, defeating timing-based detection that flagged instant in-memory responses as synthetic.
+
+### Fixed
+- **Locale normalization** — geo-derived locales are now normalized to Chrome-supported values (e.g. `en-SG` → `en-GB`), fixing `Intl` locale mismatches between the main thread and Web Workers.
+- **Worker language consistency** — `entropy.languages` is now set for every session, ensuring `navigator.languages` returns the same value inside Workers as it does on the main page.
+
+---
+
 ## [0.1.26] - 2026-02-21
 
 ### Added

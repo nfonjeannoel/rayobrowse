@@ -552,7 +552,6 @@ Specific limitations:
 
 - Fingerprint coverage is optimized for **Windows and Android**. macOS and Linux fingerprints are available but aren't a primary focus.
 - For optimal fingerprint matching, set `browser_version_min` and `browser_version_max` to **144** (the current Chromium version). Using a fingerprint from a different version may cause detection on some sites.
-- **Canvas and WebGL** fingerprinting is an ongoing research area. Major targets we scrape are unaffected, but some sites can detect our current algorithm. A new major release addressing this is expected by end of February.
 
 ---
 
