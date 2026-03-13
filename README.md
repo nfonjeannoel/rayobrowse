@@ -14,6 +14,9 @@ Standard headless Chromium gets blocked immediately by modern bot detection. ray
 
 It runs inside Docker (x86_64 and ARM64) and is actively used in production on [Rayobyte's scraping API](https://rayobyte.com/products/web-scraping-api) to scrape millions of pages per day across some of the most difficult, high-value websites.
 
+
+Need proxies that are optimized for rayobrowse? Get a free trial of our residential proxies:  [Rayobyte's residential proxies](https://rayobyte.com/products/residential-proxies/)
+
 ---
 
 ## Quick Start
