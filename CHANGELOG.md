@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.32] - 2026-03-21
+
+### Improved
+- **Page visibility and focus** - window outerWidth != innerWidth was a bug that is now fixed.
+- **Page visibility and focus** - in Docker, --no-sandbox was being used, causing a detection vector. It's now reworked and avoids using this arg.
+
 ## [0.1.32] - 2026-03-10
 
 ### Improved
